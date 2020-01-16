@@ -1,4 +1,0 @@
-#Thu Jan 16 15:36:36 GMT+01:00 2020
-base.0=D\:\\Document\\Unity powa\\IntensifGit\\Intensif_vr_Spaceship\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
-path.0=classes.dex
-renamed.0=classes.dex

@@ -93,7 +93,7 @@ namespace OVRTouchSample
             float flex = OVRInput.Get(OVRInput.Axis1D.PrimaryHandTrigger, m_controller);
 
             bool collisionEnabled = m_grabber.grabbedObject == null && flex >= THRESH_COLLISION_FLEX;
-            CollisionEnable(collisionEnabled);
+            //CollisionEnable(collisionEnabled);
 
             UpdateAnimStates();
         }
@@ -156,7 +156,7 @@ namespace OVRTouchSample
                 m_showAfterInputFocusAcquired.Clear();
 
                 // Update function will update this flag appropriately. Do not set it to a potentially incorrect value here.
-                //CollisionEnable(true);
+                CollisionEnable(true);
 
                 m_restoreOnInputAcquired = false;
             }
@@ -191,6 +191,10 @@ namespace OVRTouchSample
             bool canPoint = !grabbing || grabPose.AllowPointing;
             float point = canPoint ? m_pointBlend : 0.0f;
             m_animator.SetLayerWeight(m_animLayerIndexPoint, point);
+
+            if(canPoint){
+                CollisionEnable(true);
+            }
 
             // Thumbs up
             bool canThumbsUp = !grabbing || grabPose.AllowThumbsUp;

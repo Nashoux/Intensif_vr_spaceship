@@ -138,7 +138,7 @@ namespace OculusSampleFramework
 
 			_pinchStateModule.UpdateState(hand, _focusedInteractable);
 			_rayToolView.ToolActivateState = _pinchStateModule.PinchSteadyOnFocusedObject ||
-			  _pinchStateModule.PinchDownOnFocusedObject;
+			_pinchStateModule.PinchDownOnFocusedObject;
 		}
 
 		/// <summary>
@@ -196,7 +196,7 @@ namespace OculusSampleFramework
 						}
 
 						InteractableCollisionInfo collisionInfo = new InteractableCollisionInfo(colliderZone,
-						  colliderZone.CollisionDepth, this);
+						colliderZone.CollisionDepth, this);
 						_intersectingObjects.Add(collisionInfo);
 					}
 
@@ -306,7 +306,7 @@ namespace OculusSampleFramework
 			int numColliders = Physics.OverlapBoxNonAlloc(
 			  rayOrigin + rayDirection * _farFieldMaxDistance * 0.5f, // center
 			  new Vector3(coneRadius, coneRadius, _farFieldMaxDistance * 0.5f), //half extents
-			  _secondaryOverlapResults, transform.rotation);
+			_secondaryOverlapResults, transform.rotation);
 
 			for (int i = 0; i < numColliders; i++)
 			{
@@ -347,7 +347,7 @@ namespace OculusSampleFramework
 		}
 
 		public void FocusOnInteractable(Interactable focusedInteractable,
-		  ColliderZone colliderZone)
+		ColliderZone colliderZone)
 		{
 			_rayToolView.SetFocusedInteractable(focusedInteractable);
 			_focusedInteractable = focusedInteractable;

@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 72c957e271beb3e418662240f7df2106
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cercle
+    100002: Cercle1
+    100004: Cercle2
+    100006: Tuyau_colonne1
+    100008: Tuyau_colonne1 1
+    100010: //RootNode
+    100012: TuyauTourne
+    100014: TuyauTourne2
+    100016: Vis_V2
+    100018: Vis_V2 1
+    100020: Vis_V2 2
+    400000: Cercle
+    400002: Cercle1
+    400004: Cercle2
+    400006: Tuyau_colonne1
+    400008: Tuyau_colonne1 1
+    400010: //RootNode
+    400012: TuyauTourne
+    400014: TuyauTourne2
+    400016: Vis_V2
+    400018: Vis_V2 1
+    400020: Vis_V2 2
+    2100000: Tuyau_v4_SS
+    2300000: Cercle
+    2300002: Cercle1
+    2300004: Cercle2
+    2300006: Tuyau_colonne1
+    2300008: Tuyau_colonne1 1
+    2300010: //RootNode
+    2300012: TuyauTourne
+    2300014: TuyauTourne2
+    2300016: Vis_V2
+    2300018: Vis_V2 1
+    2300020: Vis_V2 2
+    3300000: Cercle
+    3300002: Cercle1
+    3300004: Cercle2
+    3300006: Tuyau_colonne1
+    3300008: Tuyau_colonne1 1
+    3300010: //RootNode
+    3300012: TuyauTourne
+    3300014: TuyauTourne2
+    3300016: Vis_V2
+    3300018: Vis_V2 1
+    3300020: Vis_V2 2
+    4300000: Tuyau_V4
+    4300002: Cercle
+    4300004: Vis_V2
+    4300006: Cercle1
+    4300008: Vis_V2
+    4300010: TuyauTourne
+    4300012: Tuyau_colonne1
+    4300014: Cercle2
+    4300016: Vis_V2
+    4300018: TuyauTourne2
+    4300020: Tuyau_colonne1
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

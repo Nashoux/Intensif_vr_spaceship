@@ -155,6 +155,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 08620780b69fc9e76cd687022de1f5b6 Assembly-CSharp.dll:OculusSampleFramework.ControllerBoxController
+c7ca6e098c98c1a0378cd33e3f7fb5db Assembly-CSharp.dll:.DistanceJoint3D
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 caf27b6b72eb1c27445495431511c61a Oculus.VR.dll:.OVRControllerHelper
 71bb6a6b6c8f052f948db64c7dd3ca4f Oculus.VR.dll:.OVRResources
@@ -192,6 +193,7 @@ f41dc612e461acf568bc5ca2f9d3c8ea Assembly-CSharp.dll:.TeleportOrientationHandler
 373688f86e51a7cff81489e2b39ee3bb Assembly-CSharp.dll:.TeleportTargetHandlerPhysical
 0498232dd48b097128db9129acff161b Assembly-CSharp.dll:.OvrAvatarTouchController
 01cd302f83f4378db9f722a1c5d2354b Assembly-CSharp.dll:.CardHolder
+26966486a74a48b3095b00a96832e7b1 Assembly-CSharp.dll:.LeverHolder
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Oculus.Platform.Samples.VrHoops.DetectBasket
 bb416e9a49fa1056a851e29bfaeebe51 Assembly-CSharp.dll:.ONSPReflectionZone
 2d75dd1753213123772f51e8448cd92e Assembly-CSharp.dll:Oculus.Platform.Samples.VrBoardGame.GamePiece
@@ -227,6 +229,7 @@ a4b88f3b08f1f148e04c6c3d7544c9ec Oculus.VR.dll:.OVRMonoscopic
 157538f8f4891e8727c599fd613d7108 Assembly-CSharp.dll:.OVRLipSyncDebugConsole
 8a472b9d30acaab8e6257c7f673e2479 Assembly-CSharp.dll:OVRTouchSample.Hand
 7d3b4419890d47df531f3744ef978ef0 Assembly-CSharp.dll:.TeleportInputHandlerTouch
+a6dcfcf349982a33e22ab8d39cc1bc43 Assembly-CSharp.dll:.SnapToPos
 0182aac3fd8bfdeff27021b9548c3a6a Oculus.VR.dll:.OVRGrabbable
 9fce3d3ad5943924497902d7085db4c5 Oculus.VR.dll:.OVRCubemapCapture
 e1ca8f8609ae109158b50ac13a67fa0b Assembly-CSharp.dll:.TeleportAimVisualLaser
@@ -292,6 +295,7 @@ a4b88f3b08f1f148e04c6c3d7544c9ec Oculus.VR.dll:.OVRChromaticAberration
 8302a05adec609c4b10f8b6cc3443e4c Assembly-CSharp.dll:.PoseEditHelper
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:OculusSampleFramework.HandMesh
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Oculus.Platform.Samples.VrHoops.Camera2DController
+4fb783bee456afa6ba73263150fa09ca Assembly-CSharp.dll:.FrictionJoint3D
 931f489e44eadf809e9310429c99dde5 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioListenerExtension
 fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
@@ -302,6 +306,7 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+93231a14188ba801f04ef21cfd7e8997 Assembly-CSharp.dll:.RopeRoot
 57f180a5003248da76cab9f40f315b05 Assembly-CSharp.dll:.DebugUIBuilder
 a6ded2673e2fb033edf3bf8af9c7c7dc Assembly-CSharp.dll:.OvrAvatarMaterialManager
 a2fe3324c62d6e3b2308e2685afbb0f5 Oculus.VR.dll:.OVRMeshRenderer
@@ -351,6 +356,3 @@ cd06391f9225499fb9ea605ab668b015 Assembly-CSharp.dll:Oculus.Platform.Samples.VrH
 8cf111447f1f4754264a4de62c3f57df Assembly-CSharp.dll:.OVRLipSyncContextTextureFlip
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DebugUISample
 18235af34262c9d1c806370a73196694 Assembly-CSharp.dll:OculusSampleFramework.ButtonController
-93231a14188ba801f04ef21cfd7e8997 Assembly-CSharp.dll:.RopeRoot
-4fb783bee456afa6ba73263150fa09ca Assembly-CSharp.dll:.FrictionJoint3D
-c7ca6e098c98c1a0378cd33e3f7fb5db Assembly-CSharp.dll:.DistanceJoint3D

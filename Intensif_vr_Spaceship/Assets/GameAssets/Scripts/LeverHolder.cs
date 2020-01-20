@@ -8,6 +8,8 @@ public class LeverHolder : MonoBehaviour
 
     GameObject lastEnteredLever;
     public GameObject grabableHandler;
+
+    public GameObject[] handlesToAdd;
     int nbLever = 0;
     void Start()
     {
@@ -31,12 +33,14 @@ public class LeverHolder : MonoBehaviour
             lastEnteredLever = other.gameObject;
         }
         if(other.tag == "Lever" && lastEnteredLever != null && other.GetComponent<OVRGrabbable>().isGrabbed == false){
-            Destroy(other.GetComponent<OVRGrabbable>());
-            Destroy(other.GetComponent<Rigidbody>());
-            Destroy(other.GetComponent<Collider>());
+            other.GetComponent<OVRGrabbable>().enabled = false;
+            other.GetComponent<Rigidbody>().isKinematic = true;
+            other.GetComponent<Collider>().enabled = false;
+            other.gameObject.SetActive(false);
             SnapToPos mySnap = other.gameObject.AddComponent<SnapToPos>();
             mySnap.snapToThis = pos;
             other.tag = "Untagged";
+            handlesToAdd[nbLever].SetActive(true);
             nbLever ++;
             if(nbLever >= 2){
                 grabableHandler.SetActive(true);

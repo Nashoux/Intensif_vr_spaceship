@@ -1,0 +1,539 @@
+fileFormatVersion: 2
+guid: 52c8a3ac1397a7c4081c74c8338f4c4a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Barre01
+    100004: Barre02
+    100006: Barre03
+    100008: Barre04
+    100010: Cable
+    100012: Cable1
+    100014: Cercle2
+    100016: Cercle2 1
+    100018: Cercle2 2
+    100020: Cercle2 3
+    100022: Cercle2 4
+    100024: Cercle2 5
+    100026: Cercle2 6
+    100028: Cercle2 7
+    100030: Cercle2 8
+    100032: Cercle3
+    100034: Cercle3 1
+    100036: Cercle4
+    100038: Cercle4 1
+    100040: Cercle5
+    100042: Cercle5 1
+    100044: Cercle6
+    100046: Cercle6 1
+    100048: Cercle7
+    100050: Cercle7 1
+    100052: Cercle8
+    100054: Cercle8 1
+    100056: DecoV10
+    100058: DecoV11
+    100060: DecoV12
+    100062: DecoV13
+    100064: DecoV14
+    100066: DecoV3
+    100068: DecoV4
+    100070: DecoV5
+    100072: DecoV6
+    100074: DecoV7
+    100076: DecoV8
+    100078: DecoV9
+    100080: Mur_022
+    100082: Mur_05
+    100084: Mur_Coin
+    100086: Mur_Coin1
+    100088: Mur_V1
+    100090: Mur_V2
+    100092: Mur_V3
+    100094: Mur_V4
+    100096: Mur_V5
+    100098: PetiteBoite
+    100100: Porte
+    100102: Porte_Mur
+    100104: pPlane9
+    100106: Tuyau_colonne1
+    100108: Tuyau_colonne10
+    100110: Tuyau_colonne11
+    100112: Tuyau_colonne12
+    100114: Tuyau_colonne16
+    100116: Tuyau_colonne17
+    100118: Tuyau_colonne18
+    100120: Tuyau_colonne19
+    100122: Tuyau_colonne2
+    100124: Tuyau_colonne3
+    100126: Tuyau_colonne4
+    100128: Tuyau_colonne5
+    100130: Tuyau_colonne6
+    100132: Tuyau_colonne7
+    100134: Tuyau_colonne8
+    100136: Tuyau_colonne9
+    100138: Vis_V2
+    100140: Vis_V2 1
+    100142: Vis_V2 10
+    100144: Vis_V2 11
+    100146: Vis_V2 12
+    100148: Vis_V2 13
+    100150: Vis_V2 14
+    100152: Vis_V2 15
+    100154: Vis_V2 16
+    100156: Vis_V2 17
+    100158: Vis_V2 18
+    100160: Vis_V2 19
+    100162: Vis_V2 2
+    100164: Vis_V2 20
+    100166: Vis_V2 3
+    100168: Vis_V2 4
+    100170: Vis_V2 5
+    100172: Vis_V2 6
+    100174: Vis_V2 7
+    100176: Vis_V2 8
+    100178: Vis_V2 9
+    400000: //RootNode
+    400002: Barre01
+    400004: Barre02
+    400006: Barre03
+    400008: Barre04
+    400010: Cable
+    400012: Cable1
+    400014: Cercle2
+    400016: Cercle2 1
+    400018: Cercle2 2
+    400020: Cercle2 3
+    400022: Cercle2 4
+    400024: Cercle2 5
+    400026: Cercle2 6
+    400028: Cercle2 7
+    400030: Cercle2 8
+    400032: Cercle3
+    400034: Cercle3 1
+    400036: Cercle4
+    400038: Cercle4 1
+    400040: Cercle5
+    400042: Cercle5 1
+    400044: Cercle6
+    400046: Cercle6 1
+    400048: Cercle7
+    400050: Cercle7 1
+    400052: Cercle8
+    400054: Cercle8 1
+    400056: DecoV10
+    400058: DecoV11
+    400060: DecoV12
+    400062: DecoV13
+    400064: DecoV14
+    400066: DecoV3
+    400068: DecoV4
+    400070: DecoV5
+    400072: DecoV6
+    400074: DecoV7
+    400076: DecoV8
+    400078: DecoV9
+    400080: Mur_022
+    400082: Mur_05
+    400084: Mur_Coin
+    400086: Mur_Coin1
+    400088: Mur_V1
+    400090: Mur_V2
+    400092: Mur_V3
+    400094: Mur_V4
+    400096: Mur_V5
+    400098: PetiteBoite
+    400100: Porte
+    400102: Porte_Mur
+    400104: pPlane9
+    400106: Tuyau_colonne1
+    400108: Tuyau_colonne10
+    400110: Tuyau_colonne11
+    400112: Tuyau_colonne12
+    400114: Tuyau_colonne16
+    400116: Tuyau_colonne17
+    400118: Tuyau_colonne18
+    400120: Tuyau_colonne19
+    400122: Tuyau_colonne2
+    400124: Tuyau_colonne3
+    400126: Tuyau_colonne4
+    400128: Tuyau_colonne5
+    400130: Tuyau_colonne6
+    400132: Tuyau_colonne7
+    400134: Tuyau_colonne8
+    400136: Tuyau_colonne9
+    400138: Vis_V2
+    400140: Vis_V2 1
+    400142: Vis_V2 10
+    400144: Vis_V2 11
+    400146: Vis_V2 12
+    400148: Vis_V2 13
+    400150: Vis_V2 14
+    400152: Vis_V2 15
+    400154: Vis_V2 16
+    400156: Vis_V2 17
+    400158: Vis_V2 18
+    400160: Vis_V2 19
+    400162: Vis_V2 2
+    400164: Vis_V2 20
+    400166: Vis_V2 3
+    400168: Vis_V2 4
+    400170: Vis_V2 5
+    400172: Vis_V2 6
+    400174: Vis_V2 7
+    400176: Vis_V2 8
+    400178: Vis_V2 9
+    2100000: Mur_v1
+    2300000: Barre01
+    2300002: Barre02
+    2300004: Barre03
+    2300006: Barre04
+    2300008: Cable
+    2300010: Cable1
+    2300012: Cercle2
+    2300014: Cercle2 1
+    2300016: Cercle2 2
+    2300018: Cercle2 3
+    2300020: Cercle2 4
+    2300022: Cercle2 5
+    2300024: Cercle2 6
+    2300026: Cercle2 7
+    2300028: Cercle2 8
+    2300030: Cercle3
+    2300032: Cercle3 1
+    2300034: Cercle4
+    2300036: Cercle4 1
+    2300038: Cercle5
+    2300040: Cercle5 1
+    2300042: Cercle6
+    2300044: Cercle6 1
+    2300046: Cercle7
+    2300048: Cercle7 1
+    2300050: Cercle8
+    2300052: Cercle8 1
+    2300054: DecoV10
+    2300056: DecoV11
+    2300058: DecoV12
+    2300060: DecoV13
+    2300062: DecoV14
+    2300064: DecoV3
+    2300066: DecoV4
+    2300068: DecoV5
+    2300070: DecoV6
+    2300072: DecoV7
+    2300074: DecoV8
+    2300076: DecoV9
+    2300078: Mur_022
+    2300080: Mur_05
+    2300082: Mur_Coin
+    2300084: Mur_Coin1
+    2300086: Mur_V1
+    2300088: Mur_V2
+    2300090: Mur_V3
+    2300092: Mur_V4
+    2300094: Mur_V5
+    2300096: PetiteBoite
+    2300098: Porte
+    2300100: Porte_Mur
+    2300102: pPlane9
+    2300104: Tuyau_colonne1
+    2300106: Tuyau_colonne10
+    2300108: Tuyau_colonne11
+    2300110: Tuyau_colonne12
+    2300112: Tuyau_colonne16
+    2300114: Tuyau_colonne17
+    2300116: Tuyau_colonne18
+    2300118: Tuyau_colonne19
+    2300120: Tuyau_colonne2
+    2300122: Tuyau_colonne3
+    2300124: Tuyau_colonne4
+    2300126: Tuyau_colonne5
+    2300128: Tuyau_colonne6
+    2300130: Tuyau_colonne7
+    2300132: Tuyau_colonne8
+    2300134: Tuyau_colonne9
+    2300136: Vis_V2
+    2300138: Vis_V2 1
+    2300140: Vis_V2 10
+    2300142: Vis_V2 11
+    2300144: Vis_V2 12
+    2300146: Vis_V2 13
+    2300148: Vis_V2 14
+    2300150: Vis_V2 15
+    2300152: Vis_V2 16
+    2300154: Vis_V2 17
+    2300156: Vis_V2 18
+    2300158: Vis_V2 19
+    2300160: Vis_V2 2
+    2300162: Vis_V2 20
+    2300164: Vis_V2 3
+    2300166: Vis_V2 4
+    2300168: Vis_V2 5
+    2300170: Vis_V2 6
+    2300172: Vis_V2 7
+    2300174: Vis_V2 8
+    2300176: Vis_V2 9
+    3300000: Barre01
+    3300002: Barre02
+    3300004: Barre03
+    3300006: Barre04
+    3300008: Cable
+    3300010: Cable1
+    3300012: Cercle2
+    3300014: Cercle2 1
+    3300016: Cercle2 2
+    3300018: Cercle2 3
+    3300020: Cercle2 4
+    3300022: Cercle2 5
+    3300024: Cercle2 6
+    3300026: Cercle2 7
+    3300028: Cercle2 8
+    3300030: Cercle3
+    3300032: Cercle3 1
+    3300034: Cercle4
+    3300036: Cercle4 1
+    3300038: Cercle5
+    3300040: Cercle5 1
+    3300042: Cercle6
+    3300044: Cercle6 1
+    3300046: Cercle7
+    3300048: Cercle7 1
+    3300050: Cercle8
+    3300052: Cercle8 1
+    3300054: DecoV10
+    3300056: DecoV11
+    3300058: DecoV12
+    3300060: DecoV13
+    3300062: DecoV14
+    3300064: DecoV3
+    3300066: DecoV4
+    3300068: DecoV5
+    3300070: DecoV6
+    3300072: DecoV7
+    3300074: DecoV8
+    3300076: DecoV9
+    3300078: Mur_022
+    3300080: Mur_05
+    3300082: Mur_Coin
+    3300084: Mur_Coin1
+    3300086: Mur_V1
+    3300088: Mur_V2
+    3300090: Mur_V3
+    3300092: Mur_V4
+    3300094: Mur_V5
+    3300096: PetiteBoite
+    3300098: Porte
+    3300100: Porte_Mur
+    3300102: pPlane9
+    3300104: Tuyau_colonne1
+    3300106: Tuyau_colonne10
+    3300108: Tuyau_colonne11
+    3300110: Tuyau_colonne12
+    3300112: Tuyau_colonne16
+    3300114: Tuyau_colonne17
+    3300116: Tuyau_colonne18
+    3300118: Tuyau_colonne19
+    3300120: Tuyau_colonne2
+    3300122: Tuyau_colonne3
+    3300124: Tuyau_colonne4
+    3300126: Tuyau_colonne5
+    3300128: Tuyau_colonne6
+    3300130: Tuyau_colonne7
+    3300132: Tuyau_colonne8
+    3300134: Tuyau_colonne9
+    3300136: Vis_V2
+    3300138: Vis_V2 1
+    3300140: Vis_V2 10
+    3300142: Vis_V2 11
+    3300144: Vis_V2 12
+    3300146: Vis_V2 13
+    3300148: Vis_V2 14
+    3300150: Vis_V2 15
+    3300152: Vis_V2 16
+    3300154: Vis_V2 17
+    3300156: Vis_V2 18
+    3300158: Vis_V2 19
+    3300160: Vis_V2 2
+    3300162: Vis_V2 20
+    3300164: Vis_V2 3
+    3300166: Vis_V2 4
+    3300168: Vis_V2 5
+    3300170: Vis_V2 6
+    3300172: Vis_V2 7
+    3300174: Vis_V2 8
+    3300176: Vis_V2 9
+    4300000: PetiteBoite
+    4300002: Mur_05
+    4300004: Cable
+    4300006: Cable1
+    4300008: Porte_Mur
+    4300010: Tuyau_colonne19
+    4300012: Tuyau_colonne18
+    4300014: Tuyau_colonne17
+    4300016: Tuyau_colonne16
+    4300018: Barre01
+    4300020: Barre02
+    4300022: Porte
+    4300024: Mur_V5
+    4300026: Barre03
+    4300028: Barre04
+    4300030: Mur_V4
+    4300032: Mur_V3
+    4300034: Tuyau_colonne3
+    4300036: Cercle2
+    4300038: Vis_V2
+    4300040: Tuyau_colonne5
+    4300042: Cercle2
+    4300044: Vis_V2
+    4300046: Tuyau_colonne1
+    4300048: Tuyau_colonne4
+    4300050: Tuyau_colonne2
+    4300052: Cercle2
+    4300054: Vis_V2
+    4300056: Tuyau_colonne6
+    4300058: Mur_V2
+    4300060: pPlane9
+    4300062: Mur_022
+    4300064: DecoV14
+    4300066: DecoV13
+    4300068: DecoV12
+    4300070: DecoV11
+    4300072: DecoV8
+    4300074: DecoV7
+    4300076: DecoV10
+    4300078: DecoV9
+    4300080: DecoV6
+    4300082: DecoV5
+    4300084: DecoV4
+    4300086: DecoV3
+    4300088: Tuyau_colonne10
+    4300090: Cercle2
+    4300092: Vis_V2
+    4300094: Cercle5
+    4300096: Vis_V2
+    4300098: Cercle6
+    4300100: Vis_V2
+    4300102: Tuyau_colonne11
+    4300104: Cercle2
+    4300106: Vis_V2
+    4300108: Cercle3
+    4300110: Vis_V2
+    4300112: Cercle4
+    4300114: Vis_V2
+    4300116: Tuyau_colonne12
+    4300118: Cercle2
+    4300120: Vis_V2
+    4300122: Cercle7
+    4300124: Vis_V2
+    4300126: Cercle8
+    4300128: Vis_V2
+    4300130: Tuyau_colonne9
+    4300132: Cercle2
+    4300134: Vis_V2
+    4300136: Cercle5
+    4300138: Vis_V2
+    4300140: Cercle6
+    4300142: Vis_V2
+    4300144: Tuyau_colonne8
+    4300146: Cercle2
+    4300148: Vis_V2
+    4300150: Cercle3
+    4300152: Vis_V2
+    4300154: Cercle4
+    4300156: Vis_V2
+    4300158: Tuyau_colonne7
+    4300160: Cercle2
+    4300162: Vis_V2
+    4300164: Cercle7
+    4300166: Vis_V2
+    4300168: Cercle8
+    4300170: Vis_V2
+    4300172: Mur_V1
+    4300174: Mur_Coin
+    4300176: Mur_Coin1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

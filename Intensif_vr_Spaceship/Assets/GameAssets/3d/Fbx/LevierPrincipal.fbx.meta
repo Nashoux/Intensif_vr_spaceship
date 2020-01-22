@@ -3,19 +3,30 @@ guid: ed6309552ffae8548a22256d3f75acb3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: LevierPrincipal
+    100000: LevierBase1
     100002: //RootNode
-    100004: LevierPrincipal1
-    400000: LevierPrincipal
+    100004: LevierPrincipal
+    100006: LevierPrincipal1
+    100008: Lumiere
+    400000: LevierBase1
     400002: //RootNode
-    400004: LevierPrincipal1
+    400004: LevierPrincipal
+    400006: LevierPrincipal1
+    400008: Lumiere
     2100000: LevierPrincipalSS
-    2300000: LevierPrincipal
-    2300002: LevierPrincipal1
-    3300000: LevierPrincipal
-    3300002: LevierPrincipal1
+    2100002: lambert1
+    2300000: LevierBase1
+    2300002: LevierPrincipal
+    2300004: LevierPrincipal1
+    2300006: Lumiere
+    3300000: LevierBase1
+    3300002: LevierPrincipal
+    3300004: LevierPrincipal1
+    3300006: Lumiere
     4300000: LevierPrincipal
-    4300002: LevierPrincipal1
+    4300002: Lumiere
+    4300004: LevierPrincipal1
+    4300006: LevierBase1
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -47,7 +58,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 50
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1

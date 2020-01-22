@@ -10,29 +10,27 @@ public class LeverHolder : MonoBehaviour
     public GameObject grabableHandler;
 
     public GameObject[] handlesToAdd;
-    int nbLever = 0;
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string tagObj = "Lever";
+    int nbLever = 0;
+
+    public bool isDestroyedAfter = false;
+
+    public int nbToAdd = 1;
+    public bool isActive = false;
+
 
     void OnTriggerEnter(Collider other) {
-        if(other.tag == "Lever" && other.GetComponent<OVRGrabbable>().isGrabbed == true){
+        if(other.tag == tagObj && other.GetComponent<OVRGrabbable>().isGrabbed == true){
             lastEnteredLever = other.gameObject;
         }
     }
 
     void OnTriggerStay(Collider other) {
-        if(other.tag == "Lever" &&  lastEnteredLever == null && other.GetComponent<OVRGrabbable>().isGrabbed == true){
+        if(other.tag == tagObj &&  lastEnteredLever == null && other.GetComponent<OVRGrabbable>().isGrabbed == true){
             lastEnteredLever = other.gameObject;
         }
-        if(other.tag == "Lever" && lastEnteredLever != null && other.GetComponent<OVRGrabbable>().isGrabbed == false){
+        if(other.tag == tagObj && lastEnteredLever != null && other.GetComponent<OVRGrabbable>().isGrabbed == false){
             other.GetComponent<OVRGrabbable>().enabled = false;
             other.GetComponent<Rigidbody>().isKinematic = true;
             other.GetComponent<Collider>().enabled = false;
@@ -42,15 +40,18 @@ public class LeverHolder : MonoBehaviour
             other.tag = "Untagged";
             handlesToAdd[nbLever].SetActive(true);
             nbLever ++;
-            if(nbLever >= 2){
+            if(nbLever >= nbToAdd && isDestroyedAfter){
+                isActive = true;
                 grabableHandler.SetActive(true);
                 Destroy(this);
+            }else if (nbLever >= nbToAdd ){
+                isActive = true;
             }
         }
     }
 
     void OnTriggerExit(Collider other) {
-        if(other.tag == "Lever"){
+        if(other.tag == tagObj){
             lastEnteredLever = null;
         }
     }

@@ -5,7 +5,8 @@ using UnityEngine;
 public class EndLever : MonoBehaviour
 {
 
-    
+    public OVRGrabbable handleGrab;
+    public Door door;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,9 @@ public class EndLever : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if()
+        if(transform.rotation.eulerAngles.z < 155 && transform.rotation.eulerAngles.z > 145  && !handleGrab.isGrabbed){
+            handleGrab.enabled = false;
+            door.Activate(this.gameObject);
+        }
     }
 }
